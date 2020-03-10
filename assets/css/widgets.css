@@ -1,0 +1,238 @@
+/*promoslider css start*/
+.doop__content span {
+    display: inline-block;
+    font-size: 18px;
+    color: #ff3946;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.doop__content h2 {
+    font-size: 48px;
+    color: #314584;
+    margin-bottom: 50px;
+    line-height: 60px;
+}
+.doop__content p {
+	font-size: 18px;
+	color: #314584;
+	line-height: 30px;
+}
+.doop__proslider .owl-nav i.icon-right-arrow, .doop__proslider .owl-nav i.icon-left-arrow {
+	color: #464E90;font-size: 25px;
+	transition: .4s;
+	margin-top: 40px;
+	display: inline-block;
+}
+.doop__proslider .owl-nav i.icon-right-arrow {
+    margin-left: 25px;
+}
+
+.doop__proslider .owl-nav i:hover {
+    color: #FF4359;
+}
+#prmo-shdw .elementor-column-wrap {
+    box-shadow: 0 0 14px #E7E9EA;
+}
+/*promoslider css end*/
+
+/*gallery css*/
+.doop__gallery_single {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.doop__gallery_image {
+	height: 280px;
+	flex: 0 0 31.70%;
+}
+.doop__gallery_image img {
+    width: 100%;
+    object-fit: cover;
+    padding-bottom: 30px;
+    height: 100% !important;
+}
+.doop_gallery_carpusel i {
+    position: absolute;
+    top: -70px;
+    right: 0;
+    color: #464E90;
+    font-size: 25px;
+    transition: .4s;
+    display: block;
+}
+
+.doop_gallery_carpusel i.icon.icon-left-arrow {
+    margin-right: 60px;
+}
+.doop_gallery_carpusel i {
+    transition: .4s;
+}
+.doop_gallery_carpusel i:hover {
+    color: #FF3946;
+}
+/*.elementor img {
+    height: 100% !important;
+}*/
+/*gallery css end*/
+
+/*Blog css Start*/
+.doop__blog__section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.doop__blog__single {
+    flex: 0 0 31.70%;
+    padding: 40px 30px 30px 40px;
+    box-shadow: 0 0 10px #F0F1F1;
+}
+
+.doop__blo__content h2 {
+    font-size: 18px;
+    color: #314584;
+    font-weight: 600;
+}
+
+.doop__blo__content span {
+    color: #6e757a;
+    margin-bottom: 30px;
+    display: inline-block;
+    transition: .4s;
+}
+
+.doop__blo__content p {
+    color: #314584;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.redmore__btn {
+    display: inline-block;
+    float: right;
+    margin-top: 30px;
+}
+
+.redmore__btn i {
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.doop__blog__single:hover {
+    background: #FF4359;
+}
+.doop__blo__content span,
+.redmore__btn i,
+.doop__blog__single,
+.doop__blo__content p{
+    transition: .4s;
+}
+
+.doop__blog__single:hover .doop__blo__content p {
+    color: #fff;
+}.doop__blog__single:hover .doop__blo__content h2 {
+    color: #fff;
+}.doop__blog__single:hover .doop__blo__content span {
+    color: #fff;
+}.doop__blog__single:hover .redmore__btn {
+    color: #fff;
+}
+
+
+/*Blog css end*/
+
+/*Contactfrom7 css start*/
+.input-fields {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-control {
+    flex: 0 0 48%;
+    display: block;
+    margin-right: 10px;
+}
+
+.form-control label {
+    width: 100%;color: #314584;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 30px;
+};
+
+.form-control input {
+
+}
+.form-control input, .form-control textarea {
+    background: #F4FAFE;
+    border: none;
+    padding: 12px;
+};
+
+textarea.wpcf7-form-control.wpcf7-textarea {}
+
+.message-field textarea {
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+}
+input[type=date], input[type=email], input[type=number],
+input[type=password], input[type=search],
+input[type=tel], input[type=text], select, textarea {
+    border: none !important;
+    padding: 16px !important;
+}
+p {}
+
+.doop-cf7-form input[type="submit"] {
+    background: #FF3946;
+    color: #fff;
+    border: none;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: .4s;
+    border: 2px solid transparent;
+}
+.doop-cf7-form input[type="submit"]:hover {
+    background: #fff;
+    color: #FF3946;
+    border: 2px solid #FF3946;
+}
+div.wpcf7-response-output {
+    margin: 2em 0.5em 1em;
+    padding: 0.2em 1em;
+}
+
+div.wpcf7-mail-sent-ok {
+    border: 2px solid #398f14;
+}
+
+div.wpcf7-mail-sent-ng {
+    border: 2px solid #ff0000;
+}
+
+div.wpcf7-spam-blocked {
+    border: 2px solid #ffa500;
+}
+
+div.wpcf7-validation-errors {
+    border: 2px solid #f7e700;
+}
+div.wpcf7-mail-sent-ng {
+    position: absolute;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    width: auto;
+    width: 100%;
+}
+/*Blog css end*/
